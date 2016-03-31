@@ -1,5 +1,5 @@
 module.exports = {
-  entry: "./src/js/main.js",
+  entry: './src/js/main.jsx',
   output: {
     path: './dist',
     filename: "bundle.js",
@@ -20,5 +20,8 @@ module.exports = {
         }
       }
     ]
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx']
   }
 };
